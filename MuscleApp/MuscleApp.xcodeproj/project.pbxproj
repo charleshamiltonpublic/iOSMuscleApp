@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5223D9B2766AAFF00D58615 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5223D9A2766AAFF00D58615 /* Workout.swift */; };
+		B5223D9F2766AB0B00D58615 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5223D9E2766AB0B00D58615 /* WorkoutService.swift */; };
+		B556AE5B276540C90039719B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B556AE5A276540C90039719B /* FirebaseAuth */; };
+		B556AE5D276540C90039719B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B556AE5C276540C90039719B /* FirebaseFirestore */; };
+		B556AE60276543040039719B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B556AE5F276543040039719B /* GoogleService-Info.plist */; };
+		B556AE6427654D440039719B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B556AE6327654D440039719B /* GoogleSignIn */; };
+		B556AE69276552220039719B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556AE68276552220039719B /* Task.swift */; };
+		B556AE6D276552400039719B /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556AE6C276552400039719B /* TaskService.swift */; };
+		B556AE702765533F0039719B /* WorkoutCategorySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556AE6F2765533F0039719B /* WorkoutCategorySelectViewController.swift */; };
+		B556AE73276553600039719B /* WorkoutExerciseSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556AE72276553600039719B /* WorkoutExerciseSelectViewController.swift */; };
+		B59657DC276949CE00A9FDD2 /* Muscle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59657DB276949CE00A9FDD2 /* Muscle.swift */; };
+		B59657E0276949E700A9FDD2 /* MuscleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59657DF276949E700A9FDD2 /* MuscleService.swift */; };
+		B59657E427696C4D00A9FDD2 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59657E327696C4D00A9FDD2 /* MuscleGroup.swift */; };
+		B59657E727696C5E00A9FDD2 /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59657E627696C5E00A9FDD2 /* GroupService.swift */; };
+		B5D4596727558261004FE700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4596627558261004FE700 /* AppDelegate.swift */; };
+		B5D4596927558261004FE700 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4596827558261004FE700 /* SceneDelegate.swift */; };
+		B5D4596B27558261004FE700 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4596A27558261004FE700 /* SigninViewController.swift */; };
+		B5D4596E27558261004FE700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D4596C27558261004FE700 /* Main.storyboard */; };
+		B5D459702755826D004FE700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D4596F2755826D004FE700 /* Assets.xcassets */; };
+		B5D459732755826D004FE700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D459712755826D004FE700 /* LaunchScreen.storyboard */; };
+		B5D4597D27558512004FE700 /* WorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4597C27558512004FE700 /* WorkoutTableViewController.swift */; };
+		B5D45980275585DD004FE700 /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4597F275585DD004FE700 /* WorkoutDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5223D9A2766AAFF00D58615 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		B5223D9E2766AB0B00D58615 /* WorkoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutService.swift; sourceTree = "<group>"; };
+		B556AE5F276543040039719B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B556AE68276552220039719B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B556AE6C276552400039719B /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		B556AE6F2765533F0039719B /* WorkoutCategorySelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCategorySelectViewController.swift; sourceTree = "<group>"; };
+		B556AE72276553600039719B /* WorkoutExerciseSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExerciseSelectViewController.swift; sourceTree = "<group>"; };
+		B59657DB276949CE00A9FDD2 /* Muscle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muscle.swift; sourceTree = "<group>"; };
+		B59657DF276949E700A9FDD2 /* MuscleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleService.swift; sourceTree = "<group>"; };
+		B59657E327696C4D00A9FDD2 /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
+		B59657E627696C5E00A9FDD2 /* GroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
+		B5D4596327558261004FE700 /* MuscleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D4596627558261004FE700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5D4596827558261004FE700 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5D4596A27558261004FE700 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		B5D4596D27558261004FE700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5D4596F2755826D004FE700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D459722755826D004FE700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5D459742755826D004FE700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D4597C27558512004FE700 /* WorkoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewController.swift; sourceTree = "<group>"; };
+		B5D4597F275585DD004FE700 /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D4596027558261004FE700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B556AE5B276540C90039719B /* FirebaseAuth in Frameworks */,
+				B556AE5D276540C90039719B /* FirebaseFirestore in Frameworks */,
+				B556AE6427654D440039719B /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5223D992766AAEF00D58615 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				B5223D9A2766AAFF00D58615 /* Workout.swift */,
+				B5223D9E2766AB0B00D58615 /* WorkoutService.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		B556AE67276552110039719B /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				B556AE68276552220039719B /* Task.swift */,
+				B556AE6C276552400039719B /* TaskService.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		B59657DA276949AE00A9FDD2 /* Muscle */ = {
+			isa = PBXGroup;
+			children = (
+				B59657DB276949CE00A9FDD2 /* Muscle.swift */,
+				B59657DF276949E700A9FDD2 /* MuscleService.swift */,
+			);
+			path = Muscle;
+			sourceTree = "<group>";
+		};
+		B59657E227696C3700A9FDD2 /* MuscleGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B59657E327696C4D00A9FDD2 /* MuscleGroup.swift */,
+				B59657E627696C5E00A9FDD2 /* GroupService.swift */,
+			);
+			path = MuscleGroup;
+			sourceTree = "<group>";
+		};
+		B5D4595A27558261004FE700 = {
+			isa = PBXGroup;
+			children = (
+				B5D4596527558261004FE700 /* MuscleApp */,
+				B5D4596427558261004FE700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D4596427558261004FE700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4596327558261004FE700 /* MuscleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D4596527558261004FE700 /* MuscleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B59657E227696C3700A9FDD2 /* MuscleGroup */,
+				B59657DA276949AE00A9FDD2 /* Muscle */,
+				B5223D992766AAEF00D58615 /* Workout */,
+				B556AE67276552110039719B /* Task */,
+				B556AE5F276543040039719B /* GoogleService-Info.plist */,
+				B5D4596627558261004FE700 /* AppDelegate.swift */,
+				B5D4596827558261004FE700 /* SceneDelegate.swift */,
+				B5D4596A27558261004FE700 /* SigninViewController.swift */,
+				B5D4596C27558261004FE700 /* Main.storyboard */,
+				B5D4596F2755826D004FE700 /* Assets.xcassets */,
+				B5D459712755826D004FE700 /* LaunchScreen.storyboard */,
+				B5D459742755826D004FE700 /* Info.plist */,
+				B5D4597C27558512004FE700 /* WorkoutTableViewController.swift */,
+				B5D4597F275585DD004FE700 /* WorkoutDetailViewController.swift */,
+				B556AE6F2765533F0039719B /* WorkoutCategorySelectViewController.swift */,
+				B556AE72276553600039719B /* WorkoutExerciseSelectViewController.swift */,
+			);
+			path = MuscleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D4596227558261004FE700 /* MuscleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D459772755826D004FE700 /* Build configuration list for PBXNativeTarget "MuscleApp" */;
+			buildPhases = (
+				B5D4595F27558261004FE700 /* Sources */,
+				B5D4596027558261004FE700 /* Frameworks */,
+				B5D4596127558261004FE700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuscleApp;
+			packageProductDependencies = (
+				B556AE5A276540C90039719B /* FirebaseAuth */,
+				B556AE5C276540C90039719B /* FirebaseFirestore */,
+				B556AE6327654D440039719B /* GoogleSignIn */,
+			);
+			productName = MuscleApp;
+			productReference = B5D4596327558261004FE700 /* MuscleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D4595B27558261004FE700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B5D4596227558261004FE700 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B5D4595E27558261004FE700 /* Build configuration list for PBXProject "MuscleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D4595A27558261004FE700;
+			packageReferences = (
+				B556AE59276540C90039719B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B556AE6227654D440039719B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = B5D4596427558261004FE700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D4596227558261004FE700 /* MuscleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D4596127558261004FE700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D459732755826D004FE700 /* LaunchScreen.storyboard in Resources */,
+				B556AE60276543040039719B /* GoogleService-Info.plist in Resources */,
+				B5D459702755826D004FE700 /* Assets.xcassets in Resources */,
+				B5D4596E27558261004FE700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D4595F27558261004FE700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59657DC276949CE00A9FDD2 /* Muscle.swift in Sources */,
+				B59657E727696C5E00A9FDD2 /* GroupService.swift in Sources */,
+				B5223D9F2766AB0B00D58615 /* WorkoutService.swift in Sources */,
+				B5D45980275585DD004FE700 /* WorkoutDetailViewController.swift in Sources */,
+				B5D4596B27558261004FE700 /* SigninViewController.swift in Sources */,
+				B5D4596727558261004FE700 /* AppDelegate.swift in Sources */,
+				B5223D9B2766AAFF00D58615 /* Workout.swift in Sources */,
+				B556AE73276553600039719B /* WorkoutExerciseSelectViewController.swift in Sources */,
+				B556AE6D276552400039719B /* TaskService.swift in Sources */,
+				B556AE702765533F0039719B /* WorkoutCategorySelectViewController.swift in Sources */,
+				B5D4597D27558512004FE700 /* WorkoutTableViewController.swift in Sources */,
+				B59657E427696C4D00A9FDD2 /* MuscleGroup.swift in Sources */,
+				B556AE69276552220039719B /* Task.swift in Sources */,
+				B59657E0276949E700A9FDD2 /* MuscleService.swift in Sources */,
+				B5D4596927558261004FE700 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5D4596C27558261004FE700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D4596D27558261004FE700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5D459712755826D004FE700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D459722755826D004FE700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D459752755826D004FE700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D459762755826D004FE700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D459782755826D004FE700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuscleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iupui.hamiltcs.MuscleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D459792755826D004FE700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuscleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iupui.hamiltcs.MuscleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D4595E27558261004FE700 /* Build configuration list for PBXProject "MuscleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D459752755826D004FE700 /* Debug */,
+				B5D459762755826D004FE700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D459772755826D004FE700 /* Build configuration list for PBXNativeTarget "MuscleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D459782755826D004FE700 /* Debug */,
+				B5D459792755826D004FE700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B556AE59276540C90039719B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+		B556AE6227654D440039719B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B556AE5A276540C90039719B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B556AE59276540C90039719B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B556AE5C276540C90039719B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B556AE59276540C90039719B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B556AE6327654D440039719B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B556AE6227654D440039719B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5D4595B27558261004FE700 /* Project object */;
+}
